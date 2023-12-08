@@ -2,11 +2,17 @@ mod algorithms;
 use algorithms::insertion;
 use algorithms::merge_sort;
 use rand::prelude::*;
+use std::time::Duration;
 use std::time::Instant;
+
+struct Result {
+    result: Vec<f32>,
+    elapsed_time: Duration,
+}
 
 fn main() {
     //Create random list
-    let n: u64 = 100000;
+    let n: u64 = 10000;
 
     let mut rng = rand::thread_rng();
 
@@ -16,14 +22,31 @@ fn main() {
     let result = merge_sort(&list);
     let elapsed_time = start_time.elapsed();
 
+    let insertion_result = Result {
+        result: result,
+        elapsed_time: elapsed_time,
+    };
+
     println!();
-    println!("Merge sort =>{:?}", &result[..10]);
-    println!("required time Merge sort => {}", elapsed_time.as_millis());
+    println!("Merge sort =>{:?}", &insertion_result.result[..10]);
+    println!(
+        "required time Merge sort => {}",
+        insertion_result.elapsed_time.as_millis()
+    );
 
     let start_time: Instant = Instant::now();
     let result: Vec<f32> = insertion(list);
     let elapsed_time = start_time.elapsed();
+
+    let merge_result: Result = Result {
+        result: result,
+        elapsed_time: elapsed_time,
+    };
+
     println!();
-    println!("Insertion sort =>{:?}", &result[..10]);
-    println!("required time Insertion sort => {}", elapsed_time.as_millis());
+    println!("Insertion sort =>{:?}", &merge_result.result[..10]);
+    println!(
+        "required time Insertion sort => {}",
+        merge_result.elapsed_time.as_millis()
+    );
 }
