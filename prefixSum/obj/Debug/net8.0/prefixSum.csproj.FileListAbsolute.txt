@@ -1,0 +1,15 @@
+/home/simon/programacion/algorithms/prefixSum/obj/Debug/net8.0/prefixSum.GeneratedMSBuildEditorConfig.editorconfig
+/home/simon/programacion/algorithms/prefixSum/obj/Debug/net8.0/prefixSum.AssemblyInfoInputs.cache
+/home/simon/programacion/algorithms/prefixSum/obj/Debug/net8.0/prefixSum.AssemblyInfo.cs
+/home/simon/programacion/algorithms/prefixSum/obj/Debug/net8.0/prefixSum.csproj.CoreCompileInputs.cache
+/home/simon/programacion/algorithms/prefixSum/obj/Debug/net8.0/prefixSum.sourcelink.json
+/home/simon/programacion/algorithms/prefixSum/bin/Debug/net8.0/prefixSum
+/home/simon/programacion/algorithms/prefixSum/bin/Debug/net8.0/prefixSum.deps.json
+/home/simon/programacion/algorithms/prefixSum/bin/Debug/net8.0/prefixSum.runtimeconfig.json
+/home/simon/programacion/algorithms/prefixSum/bin/Debug/net8.0/prefixSum.dll
+/home/simon/programacion/algorithms/prefixSum/bin/Debug/net8.0/prefixSum.pdb
+/home/simon/programacion/algorithms/prefixSum/obj/Debug/net8.0/prefixSum.dll
+/home/simon/programacion/algorithms/prefixSum/obj/Debug/net8.0/refint/prefixSum.dll
+/home/simon/programacion/algorithms/prefixSum/obj/Debug/net8.0/prefixSum.pdb
+/home/simon/programacion/algorithms/prefixSum/obj/Debug/net8.0/prefixSum.genruntimeconfig.cache
+/home/simon/programacion/algorithms/prefixSum/obj/Debug/net8.0/ref/prefixSum.dll
